@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3 12 33);
+}
+
+header {
+    background: white;
+    padding: 18px;
+}
+
+header h1 {
+    color: rgb(14, 2, 46);
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 45px;
+    padding: 15px 20px;
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+}
+
+.badge {
+    background-color: #9a0101;
+    color: white;
+    font-size: 16px;
+    padding: 2px 10px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#user-lable {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+}
+
+#comp-lable {
+    position: absolute;
+    top: 35px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result>p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding: 14px 14px;
+    filter: invert();
+}
+
+.choises {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choise {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choise:hover {
+    cursor: pointer;
+    background: black;
+    border: 3px solid white;
+    filter: invert();
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
